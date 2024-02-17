@@ -1,0 +1,69 @@
+#first{
+    font-size: 50px;
+    font-weight: 900;
+}
+#headphone h4{
+    margin-left:20px;
+    color: #2B2E4A;
+    font-weight: 900;
+}
+#headphone2 h4{
+    margin-left:20px;
+    color: #2B2E4A;
+    font-weight: 900;
+}
+.responsive-image {
+    max-width: 100%; /* Ensure the image never exceeds its container's width */
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    .responsive-image {
+        width: 80%; /* Adjust the image width for small screens */
+    }
+}
+.ab:hover{
+    color: orange;
+}
+
+.ab{
+    color: white;
+}
+
+#container, .nav{
+    background-color: #2b2e4a;
+}
+
+.first{
+    color: #305a96;
+}
+
+.first:hover{
+    color: #305a96;
+}
+
+@media only screen and (max-width: 996px){
+    .second {
+      display: none;
+    }
+  }
+  .social-icons {
+      margin-left: 50%;
+      align-items: center;
+      margin-top: 1%;
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin-left: 10px; /* Adjust this value as needed */
+}
+
+.social-icons ul li:first-child {
+    margin-left: 0;
+}
